@@ -18,6 +18,6 @@ jobs:
          server: ftp.netelmart.net
          username: devftp@dev.netelmart.net
          password: gzsHiwRdR#^x
-         server-dir: /home/neteklzv/dev.netelmart.net/
+         server-dir: /dev.netelmart.net/
 
   
