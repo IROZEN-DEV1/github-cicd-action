@@ -1,13 +1,13 @@
 on: 
   push:
-   branchaes:
+   branches:
       - main
       
 name: deploy website on push
 jobs:
   web-deploy:
      name: Deploy
-     runs-on: ubantu-latest
+     runs-on: ubuntu-latest
      steps:
      - name: Get latest code
        uses: actions/checkout@v2.3.2
