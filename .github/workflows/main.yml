@@ -1,0 +1,24 @@
+on: 
+  push:
+   branchaes:
+      - main
+
+      
+name: deploy website on push
+jobs:
+  web-deploy:
+     name: Deploy
+     runs-on: ubantu-latest
+     steps:
+      -name: Get latest code
+       uses: actions/checkout@v3.2.2
+
+      - name: Sync file
+      uses: ftfm deplument
+      with:
+       server: ftp.netelmart.net
+       username: devftp@dev.netelmart.net
+       password: gzsHiwRdR#^x
+       server-dir: /dev.netelmart.net
+
+  
