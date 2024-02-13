@@ -18,8 +18,8 @@ jobs:
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
        with:
          server: ftp.netelmart.net
-         username:  test@dev.netelmart.net
-         password: Gg6coF[?zBWW
+         username: dev@dev.netelmart.net
+         password: JlSf]ePibW[p
          server-dir: /dev.netelmart.net/
 
   
