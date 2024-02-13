@@ -18,6 +18,7 @@ jobs:
          server: ftp.netelmart.net
          username: dev@dev.netelmart.net
          password: ${{ secrets.ftp_password }}
+         server-dir: dev.netelmart.net/
 
 
   
